@@ -103,13 +103,13 @@ p.formtext {
     margin-bottom: 12px;
 }
 
-
 div#formexpdate {
-    display: inline-block;
-    border: 1px solid;
-    width: 100%;
+    display: flex;
 }
 
+div#expdate{
+    margin-right: 22px;
+}
 
 div#expdate input {
     display: inline-block;
@@ -117,7 +117,6 @@ div#expdate input {
     height: 45px;
     padding: 10px;
 }
-
 
 div#cvc input {
     width: 104px;
