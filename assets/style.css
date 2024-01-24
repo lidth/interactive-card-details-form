@@ -11,10 +11,10 @@ body, html {
 
 div#carddivs {
     position: absolute;
-    width: 343px;
     height: 251px;
     margin-top: 32px;
     margin-left: 17px;
+    margin-right: 17px;
     border: 1px solid;
 }
 
