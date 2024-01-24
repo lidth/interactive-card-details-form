@@ -1,7 +1,14 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body, html {
@@ -12,10 +19,8 @@ body, html {
 div#carddivs {
     position: absolute;
     height: 251px;
-    margin-top: 32px;
-    margin-left: 17px;
-    margin-right: 17px;
-    border: 1px solid;
+    top: 32px;
+    left: 17px;
 }
 
 div#carddivs img {
@@ -23,12 +28,48 @@ div#carddivs img {
 }
 
 div#versphoto {
+    position: ;
     margin-left: 56px;
 }
 
 div#frentphoto {
     position: absolute;
     top: 90px;
+    /*margin-top: 90px;*/
+}
+
+
+div#textocard {
+    position: absolute;
+    color: white;
+}
+
+div#textovers {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    font-size: 13px;
+}
+
+div#textofrontnumber {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 239px;
+    font-size: 1.3em;
+}
+
+div#textofrontname {
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    width: 130px;
+}
+
+div#textofrontdate {
+    position: absolute;
+    top: 240px;
+    left: 220px;
 }
 
 div#purpbackg {
@@ -38,3 +79,4 @@ div#purpbackg {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
