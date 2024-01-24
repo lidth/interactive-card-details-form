@@ -80,3 +80,56 @@ div#purpbackg {
     background-size: cover;
 }
 
+form {
+    position: absolute;
+    margin-top: 91px;
+    left: 17px;
+    width: 327px;
+    height: 328px;
+}
+
+form input {
+    margin-bottom: 23px;
+    outline: none;
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    width: 327px;
+    height: 45px;
+    padding: 15px;
+}
+
+p.formtext {
+    color: #21092F;
+    margin-bottom: 12px;
+}
+
+
+div#formexpdate {
+    display: inline-block;
+    border: 1px solid;
+    width: 100%;
+}
+
+
+div#expdate input {
+    display: inline-block;
+    width: 72px;
+    height: 45px;
+    padding: 10px;
+}
+
+
+div#cvc input {
+    width: 104px;
+    height: 45px;
+
+}
+
+form input[type=submit] {
+    display: block;
+    width: 327px;
+    height: 53px;
+    background-color: #21092F;
+    color: white;
+    font-size: 1em;
+}
