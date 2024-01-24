@@ -11,11 +11,6 @@
     font-style: normal;
 }
 
-html {
-    width: 100vw;
-    height: 100vh;
-}
-
 div#carddivs {
     position: absolute;
     height: 251px;
