@@ -1,6 +1,40 @@
-p {
-    display: block;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+div#carddivs {
     position: absolute;
-    top: 105px;
-    left: 372px;
+    width: 343px;
+    height: 251px;
+    margin-top: 32px;
+    margin-left: 17px;
+    border: 1px solid;
+}
+
+div#carddivs img {
+    width: 286px;
+}
+
+div#versphoto {
+    margin-left: 56px;
+}
+
+div#frentphoto {
+    position: absolute;
+    top: 90px;
+}
+
+div#purpbackg {
+    width: 100vw;
+    height: 240px;
+    background-image: url('../images/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
