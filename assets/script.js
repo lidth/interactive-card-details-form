@@ -10,6 +10,7 @@ function verphocvc() {
 document.addEventListener("keyup", function() {
     let inputname = document.getElementById('itextname').value;
     let nametext = document.getElementById('textofrontname')
+
     if (inputname == '') {
         nametext.innerHTML = "Jane Appleseed"
     } else {

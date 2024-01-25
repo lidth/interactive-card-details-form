@@ -11,6 +11,16 @@
     font-style: normal;
 }
 
+div#dclogo {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+}
+
+div#dclogo img {
+    height: 30px;
+}
+
 div#carddivs {
     position: absolute;
     height: 251px;
@@ -129,4 +139,71 @@ form input[type=submit] {
     color: white;
     font-size: 1em;
     margin-bottom: 0px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+
+    div#carddivs {
+        margin-left: 40px;
+    }
+
+    div#textovers {
+        left: 340px;
+    }
+    
+    div#textofrontnumber {
+        left: 70px;
+    }
+    
+    div#textofrontname {
+        left: 70px;
+    }
+    
+    div#textofrontdate {
+        left: 250px;
+    }
+
+    div#dclogo {
+        left: 80px;
+    }
+
+    form {
+        font-size: 1.3em;
+        margin-left: 40px;
+    }
+
+    form input {
+        margin-bottom: 23px;
+        outline: none;
+        border: 1px solid #DFDEE0;
+        border-radius: 8px;
+        width: 397px;
+        height: 55px;
+        padding: 15px;
+    }
+
+    div#expdate input {
+        display: inline-block;
+        width: 92px;
+        height: 45px;
+        padding: 10px;
+    }
+    
+    div#cvc input {
+        width: 104px;
+        height: 45px;
+    
+    }
+    
+    form input[type=submit] {
+        display: block;
+        width: 397px;
+        height: 63px;
+        background-color: #21092F;
+        color: white;
+        font-size: 1em;
+        margin-bottom: 0px;
+    }
+
+
 }
