@@ -23,14 +23,12 @@ div#carddivs img {
 }
 
 div#versphoto {
-    position: ;
     margin-left: 56px;
 }
 
 div#frentphoto {
     position: absolute;
     top: 90px;
-    /*margin-top: 90px;*/
 }
 
 
@@ -58,13 +56,16 @@ div#textofrontname {
     position: absolute;
     top: 240px;
     left: 40px;
-    width: 130px;
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 div#textofrontdate {
     position: absolute;
     top: 240px;
     left: 220px;
+    width: 80px;
 }
 
 div#purpbackg {
