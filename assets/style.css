@@ -144,7 +144,7 @@ form input[type=submit] {
     div#sdiv {
         text-align: center;
     }
-    
+
     div#sdiv img {
         margin-bottom: 15px;
     }
@@ -156,7 +156,6 @@ form input[type=submit] {
     div#sdiv p {
         margin-bottom: 15px;
     }
-
 @media screen and (min-width: 500px) and (max-width: 1174px) {
 
     div#carddivs {

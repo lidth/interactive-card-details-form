@@ -29,6 +29,7 @@
     <p class="formtext"><label for="itextname">Cardholder Name</label></p>
     <input type="text" placeholder="e.g. Jane Appleseed" required id="itextname">
 
+
     <p class="formtext"><label for="incard">Card Number</label></p>
     <input type="text" placeholder="e.g. 1234 5678 9123 0000" required id="incard">
 
@@ -36,13 +37,13 @@
 
     <div id="expdate">
       <p class="formtext">Exp. Date (MM/YY)</p>
-      <input type="text" placeholder="MM" id="expdatemm">
-      <input type="text" placeholder="YY" id="expdateyy">
+      <input type="text" placeholder="MM" id="expdatemm" required>
+      <input type="text" placeholder="YY" id="expdateyy" required>
     </div>
 
     <div id="cvc">
       <p class="formtext">CVC</p>
-      <input type="text" placeholder="e.g 123" id="inputcvc" onclick="verphocvc()">
+      <input type="text" placeholder="e.g 123" id="inputcvc" onclick="verphocvc()" required>
     </div>
 
     </div>
