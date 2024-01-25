@@ -1,9 +1,11 @@
 function verphocvc() {
+    if (window.innerWidth < 1170) {
     let frentphoto = document.getElementById('frentphoto')
     let versphoto = document.getElementById('versphoto')
     frentphoto.style.position = 'unset'
     versphoto.style.position = 'absolute'
     frentphoto.style.marginTop = '90px'
+    }
 }
 
 

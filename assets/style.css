@@ -141,7 +141,23 @@ form input[type=submit] {
     margin-bottom: 0px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+    div#sdiv {
+        text-align: center;
+    }
+    
+    div#sdiv img {
+        margin-bottom: 15px;
+    }
+
+    div#sdiv h1 {
+        margin-bottom: 15px;
+    }
+
+    div#sdiv p {
+        margin-bottom: 15px;
+    }
+
+@media screen and (min-width: 500px) and (max-width: 1174px) {
 
     div#carddivs {
         margin-left: 40px;
@@ -206,4 +222,72 @@ form input[type=submit] {
     }
 
 
+}
+@media screen and (min-width: 1175px) {
+
+    div#purpbackg {
+        width: 483px;
+        height: 100vh;
+    }
+
+    div#dclogo {
+        top: 250px;
+        left: 240px
+    }
+
+    div#dclogo img{
+        width: 84px;
+        height: 47px;
+    }
+
+    div#carddivs img {
+        width: 447px;
+
+    }
+
+    div#versphoto {
+        position: absolute;
+        top: 469px;
+        left: 200px;
+    }
+
+    div#frentphoto {
+        position: absolute;
+        top: 187px;
+        left: 163px;
+    }
+
+    div#textofrontnumber {
+        width: 343px;
+        font-size: 1.7em;
+        top: 340px;
+        left: 240px;
+    }
+
+    div#textofrontname {
+        width: 240px;
+        height: 50px;
+        font-size: 1.3em;
+        top: 400px;
+        left: 240px;
+    }
+
+    div#textofrontdate {
+        width: 90px;
+        height: 50px;
+        font-size: 1.3em;
+        top: 400px;
+        left: 480px;
+    }
+    div#textovers {
+        top: 605px;
+        left: 625px;
+        font-size: 1.5em;
+    }
+
+    form {
+        position: absolute;
+        top: 270px;
+        left: 830px;
+    }
 }
