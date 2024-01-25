@@ -9,14 +9,14 @@
 </head>
 <body>
   
-  <div id="carddivs">
-    <div id="versphoto"><img src="images/bg-card-back.png" alt="Image of a back credit card"></div>
-    <div id="frentphoto"><img src="images/bg-card-front.png" alt="Front of a credit card"></div>
+  <div role="credit card images" id="carddivs">
+    <div role="back of a credit card image" id="versphoto"><img src="images/bg-card-back.png" alt="Image of a back credit card"></div>
+    <div role="front of a credit card" id="frentphoto"><img src="images/bg-card-front.png" alt="Front of a credit card"></div>
   </div>
-  <div id="dclogo">
+  <div role="credid card logo" id="dclogo">
     <img src="images/card-logo.svg" alt="card logo">
   </div>
-  <div id="textocard">
+  <div role="credit card texts" id="textocard">
     <div id="textovers"><p>000</p></div>
     <div id="textofrontnumber"><p>0000 0000 0000 0000</p></div>
     <div id="textofrontname"><p>Jane Appleseed</p></div>
@@ -24,7 +24,7 @@
   </div>
   <div id="purpbackg"></div>
 
-  <form action="sucess.html" method="post">
+  <form role="form for card details" action="sucess.html" method="post">
 
     <p class="formtext"><label for="itextname">Cardholder Name</label></p>
     <input type="text" placeholder="e.g. Jane Appleseed" required id="itextname">
@@ -33,15 +33,15 @@
     <p class="formtext"><label for="incard">Card Number</label></p>
     <input type="text" placeholder="e.g. 1234 5678 9123 0000" required id="incard">
 
-    <div id="formexpdate">
+    <div role="exp date details" id="formexpdate">
 
-    <div id="expdate">
+    <div role="exp date details" id="expdate">
       <p class="formtext">Exp. Date (MM/YY)</p>
       <input type="text" placeholder="MM" id="expdatemm" required>
       <input type="text" placeholder="YY" id="expdateyy" required>
     </div>
 
-    <div id="cvc">
+    <div role="cvc details" id="cvc">
       <p class="formtext">CVC</p>
       <input type="text" placeholder="e.g 123" id="inputcvc" onclick="verphocvc()" required>
     </div>
