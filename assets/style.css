@@ -156,6 +156,17 @@ form input[type=submit] {
     div#sdiv p {
         margin-bottom: 15px;
     }
+
+    div#ssdiv {
+        position: absolute;
+        margin-top: 61px;
+        left: 17px;
+        width: 327px;
+        height: 328px;
+        margin-bottom: 0px;
+    }
+
+    
 @media screen and (min-width: 500px) and (max-width: 1174px) {
 
     div#carddivs {
@@ -219,8 +230,6 @@ form input[type=submit] {
         font-size: 1em;
         margin-bottom: 0px;
     }
-
-
 }
 @media screen and (min-width: 1175px) {
 
